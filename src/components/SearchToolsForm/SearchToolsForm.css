@@ -1,0 +1,41 @@
+.searchToolsForm__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 497px;
+  height: 64px;
+  background: url(../../images/lupa.svg) no-repeat 18px 50% #283036;
+  border-radius: 15px;
+  line-height: 60px;
+  padding: 0 11px 0 55px;
+  margin-top: 55px;
+}
+.searchToolsForm__input {
+  background: #283036;
+  border: 0;
+  outline: 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 0.38);
+  flex-grow: 1;
+  margin-right: 11px;
+}
+.searchToolsForm__button {
+  width: 130px;
+  height: 48px;
+  border-radius: 8px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.78);
+  background: transparent;
+  border: 0;
+  color: #fdf5ff;
+  background: #ff6e30;
+  flex-grow: 0;
+}

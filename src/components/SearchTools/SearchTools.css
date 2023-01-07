@@ -1,0 +1,63 @@
+.searchTools {
+  max-width: 1224px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 30px 0 0;
+  box-sizing: border-box;
+}
+.searchTools__title {
+  margin: 104px 0 0 0;
+  max-width: 600px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 140%;
+  color: rgba(255, 255, 255, 0.9);
+}
+.searchTools__title span {
+  color: #ff6e30;
+}
+.searchTools__subtitle {
+  max-width: 487px;
+  margin: 30px 0 0 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.searchTools__bg {
+  position: absolute;
+  background: url(../../images/search-tools-bg.svg) no-repeat;
+  background-size: cover;
+  height: 971px;
+  width: 666px;
+  right: 0px;
+  top: 132px;
+}
+.searchTools__social {
+  overflow: hidden;
+  text-indent: 99999px;
+  margin-top: 120px;
+  display: flex;
+  padding-left: 12px;
+}
+.searchTools__social-link {
+  display: block;
+  width: 36px;
+  height: 36px;
+  margin-right: 19px;
+}
+.fb {
+  background: url(../../images/fb.svg) no-repeat;
+}
+.in {
+  background: url(../../images/in.svg) no-repeat;
+}
+
+.tw {
+  background: url(../../images/tw.svg) no-repeat;
+}
