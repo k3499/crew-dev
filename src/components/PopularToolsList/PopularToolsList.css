@@ -15,6 +15,21 @@
   transition: all 0.4s ease;
   -webkit-transition: all 0.4s ease;
   border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+}
+.popularToolsList__orange-circle {
+  width: 65px;
+  height: 65px;
+  background: rgba(255, 110, 48, 0.6);
+  filter: blur(54px);
+  position: absolute;
+  display: none;
+  right: 0;
+  top: -20px;
+}
+.popularToolsList__item-block:hover .popularToolsList__orange-circle {
+  display: block;
 }
 .popularToolsList__item-block:hover {
   margin-top: 0;
@@ -23,6 +38,7 @@
   transition: all 0.4s ease;
   -webkit-transition: all 0.4s ease;
   margin-bottom: 7px;
+  border: 2px solid rgba(40, 48, 54, 0.6);
 }
 .popularToolsList__head-block {
   display: flex;

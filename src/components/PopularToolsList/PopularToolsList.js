@@ -4,6 +4,7 @@ function PopularToolsList() {
   return (
     <div className="popularToolsList">
       <div className="popularToolsList__item-block">
+        <div className="popularToolsList__orange-circle"></div>
         <div className="popularToolsList__head-block">
           <div className="popularToolsList__logo figma"></div>
           <div className="popularToolsList__title-block">

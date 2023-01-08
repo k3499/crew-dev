@@ -1,0 +1,40 @@
+.trusted {
+  max-width: 1224px;
+  margin: 100px auto;
+  border: 2px solid #283036;
+  border-radius: 25px;
+  padding: 55px 83px;
+  box-sizing: border-box;
+  background: rgba(44, 53, 61, 0.2);
+  backdrop-filter: blur(25px);
+  border-radius: 25px;
+  position: relative;
+  overflow: hidden;
+}
+.trusted__title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.trusted__orange-circle {
+  width: 159px;
+  height: 159px;
+  background: rgba(255, 72, 66, 0.4);
+  filter: blur(50px);
+  position: absolute;
+  left: -114px;
+  top: -124px;
+}
+.trusted__list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  padding: 0;
+  margin: 55px 0 0 0;
+}
