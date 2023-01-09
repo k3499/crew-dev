@@ -1,0 +1,42 @@
+.newcomerTools {
+  max-width: 1224px;
+  margin: 200px auto;
+  display: flex;
+}
+.newcomerTools__leftside {
+  max-width: 427px;
+}
+.newcomerTools__title {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 130%;
+  color: rgba(255, 255, 255, 0.9);
+}
+.newcomerTools__subtitle {
+  margin: 30px 0 0 0;
+  padding: 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.55);
+}
+.newcomerTools__button {
+  display: inline-block;
+  background: #ff6e30;
+  border-radius: 8px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+  padding: 16px 40px;
+  margin-top: 76px;
+  text-decoration: none;
+}

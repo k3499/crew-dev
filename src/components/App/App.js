@@ -2,6 +2,7 @@ import "./App.css"
 import SearchTools from "../SearchTools/SearchTools"
 import PopularTools from "../PopularTools/PopularTools"
 import Trusted from "../Trusted/Trusted"
+import NewcomerTools from "../NewcomerTools/NewcomerTools"
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <SearchTools />
       <PopularTools />
       <Trusted />
+      <NewcomerTools />
     </div>
   )
 }
