@@ -9,7 +9,11 @@
     ". . .";
   margin: 83px 0 0 0;
 }
+.popularToolsList__item-block:hover .popularToolsList {
+  gap: 113px 25px;
+}
 .popularToolsList__item-block {
+  border: 2px solid rgb(30 37 43);
   margin-top: 7px;
   padding: 33px;
   transition: all 0.4s ease;
@@ -37,7 +41,6 @@
   backdrop-filter: blur(25px);
   transition: all 0.4s ease;
   -webkit-transition: all 0.4s ease;
-  margin-bottom: 7px;
   border: 2px solid rgba(40, 48, 54, 0.6);
 }
 .popularToolsList__head-block {
