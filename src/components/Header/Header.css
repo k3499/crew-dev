@@ -4,7 +4,8 @@
   flex-wrap: nowrap;
   align-items: center;
 }
-.header__logo {
+.logo {
+  display: block;
   background: url(../../images/logo.svg) no-repeat;
   font-family: "Poppins";
   font-style: normal;
@@ -13,7 +14,7 @@
   line-height: 33px;
   color: rgba(255, 255, 255, 0.9);
   text-decoration: none;
-  text-indent: 50px;
+  padding-left: 50px;
   height: 38px;
 }
 .header__menu-list {

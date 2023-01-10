@@ -5,6 +5,7 @@ import Trusted from "../Trusted/Trusted"
 import NewcomerTools from "../NewcomerTools/NewcomerTools"
 import Feedback from "../Feedback/Feedback"
 import ContributorForm from "../ContributorForm/ContributorForm"
+import Footer from "../Footer/Footer"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <NewcomerTools />
       <Feedback />
       <ContributorForm />
+      <Footer />
     </div>
   )
 }

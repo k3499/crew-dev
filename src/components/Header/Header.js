@@ -3,7 +3,7 @@ import "./Header.css"
 function Header() {
   return (
     <header className="header">
-      <a className="header__logo" href="/" target="_blank">
+      <a className="logo" href="/" target="_blank">
         antools.
       </a>
       <nav>
