@@ -15,7 +15,7 @@
 .popularToolsList__item-block {
   border: 2px solid rgb(30 37 43);
   margin-top: 7px;
-  padding: 33px;
+  padding: 28px 22px;
   transition: all 0.4s ease;
   -webkit-transition: all 0.4s ease;
   border-radius: 15px;
@@ -137,5 +137,20 @@
   background: #ff6e30;
 }
 .figma {
+  background: url(../../images/figma.svg) no-repeat;
+}
+.sketch {
+  background: url(../../images/sketch.svg) no-repeat;
+}
+.vs {
+  background: url(../../images/vs.svg) no-repeat;
+}
+.notion {
+  background: url(../../images/notion.svg) no-repeat;
+}
+.slack {
+  background: url(../../images/slack-cq.svg) no-repeat;
+}
+.invision {
   background: url(../../images/figma.svg) no-repeat;
 }

@@ -11,7 +11,7 @@
 }
 .newcomerToolsList__item-block {
   margin-top: 7px;
-  padding: 33px;
+  padding: 28px 22px;
   transition: all 0.4s ease;
   -webkit-transition: all 0.4s ease;
   border-radius: 15px;
@@ -134,6 +134,15 @@
   color: #ffffff;
   background: #ff6e30;
 }
-.figma {
-  background: url(../../images/figma.svg) no-repeat;
+.zeplin {
+  background: url(../../images/zeplin.svg) no-repeat;
+}
+.phpstorm {
+  background: url(../../images/phpstorm.svg) no-repeat;
+}
+.toolbox {
+  background: url(../../images/toolbox.svg) no-repeat;
+}
+.procreate {
+  background: url(../../images/procreate.svg) no-repeat;
 }
