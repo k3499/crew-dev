@@ -20,6 +20,8 @@
   height: 28px;
   overflow: hidden;
   text-indent: 99999px;
+  cursor: pointer;
+  z-index: 1;
 }
 .feedback__arr-right {
   position: absolute;
@@ -30,6 +32,8 @@
   height: 28px;
   overflow: hidden;
   text-indent: 99999px;
+  cursor: pointer;
+  z-index: 1;
 }
 .feedback__bot-line-prev {
   position: absolute;

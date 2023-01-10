@@ -4,10 +4,10 @@ function Feedback() {
   return (
     <div className="feedback">
       <div className="feedback__wrapper">
-        <a className="feedback__arr-left" href="">
+        <a className="feedback__arr-left" href="#">
           Previous
         </a>
-        <a className="feedback__arr-right" href="">
+        <a className="feedback__arr-right" href="#">
           Next
         </a>
 

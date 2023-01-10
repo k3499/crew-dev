@@ -38,4 +38,5 @@
   color: #fdf5ff;
   background: #ff6e30;
   flex-grow: 0;
+  cursor: pointer;
 }
