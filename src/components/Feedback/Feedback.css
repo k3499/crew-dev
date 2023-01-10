@@ -4,3 +4,140 @@
   border-radius: 25px;
   box-sizing: border-box;
 }
+.feedback__wrapper {
+  position: relative;
+  min-height: 582px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+.feedback__arr-left {
+  position: absolute;
+  top: 206px;
+  left: 30px;
+  background: url(../../images/arr-left.svg) no-repeat;
+  width: 16px;
+  height: 28px;
+  overflow: hidden;
+  text-indent: 99999px;
+}
+.feedback__arr-right {
+  position: absolute;
+  top: 206px;
+  right: 30px;
+  background: url(../../images/arr-right.svg) no-repeat;
+  width: 16px;
+  height: 28px;
+  overflow: hidden;
+  text-indent: 99999px;
+}
+.feedback__bot-line-prev {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 84px);
+  width: 44px;
+  height: 6px;
+  background: #283036;
+  border-radius: 4px;
+  display: block;
+  overflow: hidden;
+  text-indent: 99999px;
+}
+.feedback__bot-line-active {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 22px);
+  width: 44px;
+  height: 6px;
+  background: #ff6e30;
+  border-radius: 4px;
+  display: block;
+  overflow: hidden;
+  text-indent: 99999px;
+}
+.feedback__bot-line-next {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% + 40px);
+  width: 44px;
+  height: 6px;
+  background: #283036;
+  border-radius: 4px;
+  display: block;
+  overflow: hidden;
+  text-indent: 99999px;
+}
+.feedback__photo-block {
+  width: 50%;
+  position: relative;
+}
+.feedback__circle {
+  background: url(../../images/slider-circle.svg) no-repeat;
+  position: absolute;
+  width: 485px;
+  height: 492px;
+  left: -20px;
+  z-index: -1;
+}
+.feedback__photo {
+  position: relative;
+  background: url(../../images/ronald.png) no-repeat;
+  width: 399px;
+  height: 492px;
+  box-sizing: border-box;
+  margin-left: 176px;
+}
+.feedback__name-block {
+  position: absolute;
+  padding: 16px 24px;
+  background: rgba(40, 48, 54, 0.2);
+  backdrop-filter: blur(25px);
+  border-radius: 8px;
+  right: 4px;
+  bottom: 29px;
+}
+.feedback__name {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 39px;
+  letter-spacing: 0.015em;
+  color: rgba(255, 253, 253, 0.78);
+}
+.feedback__job {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 253, 253, 0.55);
+}
+.feedback__quote-block {
+  width: 50%;
+  padding: 65px 188px 0 50px;
+  position: relative;
+  box-sizing: border-box;
+}
+.feedback__quote-bg {
+  width: 101px;
+  height: 97px;
+  position: absolute;
+  background: url(../../images/quote.svg) no-repeat;
+  top: 32px;
+  left: 0;
+}
+.feedback__quote-text {
+  position: relative;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.015em;
+  color: rgba(255, 255, 255, 0.78);
+}
