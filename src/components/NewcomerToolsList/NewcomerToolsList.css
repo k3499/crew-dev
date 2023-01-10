@@ -17,6 +17,7 @@
   border-radius: 15px;
   overflow: hidden;
   position: relative;
+  border: 2px solid rgb(30 37 43);
 }
 .newcomerToolsList__orange-circle {
   width: 65px;
@@ -85,7 +86,7 @@
   flex-wrap: nowrap;
   justify-content: space-between;
   margin: 40px 0 0 0;
-  padding: 0 0 0 7px;
+  padding: 0;
 }
 .newcomerToolsList__use-bar-left {
   display: flex;
@@ -111,7 +112,7 @@
   display: block;
   width: 42px;
   height: 42px;
-  margin-left: 20px;
+  margin-left: 12px;
 }
 .newcomerToolsList__item-block:hover .newcomerToolsList__add {
   background: url(../../images/add-active.svg) no-repeat;
