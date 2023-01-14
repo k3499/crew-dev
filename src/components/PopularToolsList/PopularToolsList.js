@@ -30,6 +30,7 @@ function PopularToolsList() {
         </div>
       </div>
       <div className="popularToolsList__item-block">
+        <div className="popularToolsList__orange-circle"></div>
         <div className="popularToolsList__head-block">
           <div className="popularToolsList__logo sketch"></div>
           <div className="popularToolsList__title-block">
@@ -55,6 +56,7 @@ function PopularToolsList() {
         </div>
       </div>
       <div className="popularToolsList__item-block">
+        <div className="popularToolsList__orange-circle"></div>
         <div className="popularToolsList__head-block">
           <div className="popularToolsList__logo vs"></div>
           <div className="popularToolsList__title-block">
@@ -80,6 +82,7 @@ function PopularToolsList() {
         </div>
       </div>
       <div className="popularToolsList__item-block">
+        <div className="popularToolsList__orange-circle"></div>
         <div className="popularToolsList__head-block">
           <div className="popularToolsList__logo notion"></div>
           <div className="popularToolsList__title-block">
@@ -105,6 +108,7 @@ function PopularToolsList() {
         </div>
       </div>
       <div className="popularToolsList__item-block">
+        <div className="popularToolsList__orange-circle"></div>
         <div className="popularToolsList__head-block">
           <div className="popularToolsList__logo slack"></div>
           <div className="popularToolsList__title-block">
@@ -130,6 +134,7 @@ function PopularToolsList() {
         </div>
       </div>
       <div className="popularToolsList__item-block">
+        <div className="popularToolsList__orange-circle"></div>
         <div className="popularToolsList__head-block">
           <div className="popularToolsList__logo invision"></div>
           <div className="popularToolsList__title-block">

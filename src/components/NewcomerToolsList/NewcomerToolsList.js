@@ -30,6 +30,7 @@ function NewcomerToolsList() {
         </div>
       </div>
       <div className="newcomerToolsList__item-block">
+        <div className="newcomerToolsList__orange-circle"></div>
         <div className="newcomerToolsList__head-block">
           <div className="newcomerToolsList__logo phpstorm"></div>
           <div className="newcomerToolsList__title-block">
@@ -55,6 +56,7 @@ function NewcomerToolsList() {
         </div>
       </div>
       <div className="newcomerToolsList__item-block">
+        <div className="newcomerToolsList__orange-circle"></div>
         <div className="newcomerToolsList__head-block">
           <div className="newcomerToolsList__logo toolbox"></div>
           <div className="newcomerToolsList__title-block">
@@ -80,6 +82,7 @@ function NewcomerToolsList() {
         </div>
       </div>
       <div className="newcomerToolsList__item-block">
+        <div className="newcomerToolsList__orange-circle"></div>
         <div className="newcomerToolsList__head-block">
           <div className="newcomerToolsList__logo procreate"></div>
           <div className="newcomerToolsList__title-block">
